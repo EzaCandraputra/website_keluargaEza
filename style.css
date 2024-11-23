@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header div.logo img{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+main div.isi{
+    background-color: rgb(201, 187, 187);
+}
+
+main div.isi div.isi1 h1{
+    text-align: center;
+}
+
+main div.isi div.fotokeluarga{
+    display: flex;
+}
+
+main div.isi div.fotokeluarga div.isi2 img{
+    width: 300px;
+    height: 400px;
+    margin-left: 180px;
+}
+
+main div.isi div.fotokeluarga div.isi3 img{
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;
+}
+
+main div.isi div.fotokeluarga div.isi4 img{
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;
+}
+
+main div.isi div.isi5 img{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+main div.isi div.fotokeluarga2{
+    display: flex;
+    margin-top: 20px;
+}
+
+main div.isi div.fotokeluarga2 div.isi6 img{
+    margin-left: 350px;
+}
+
+main div.isi div.fotokeluarga2 div.isi7 img{
+    margin-left: 30px;
+}
+
+main div.isi div.isi8 img{
+    margin-left: 400px;
+}
+
+main div.bb{
+    background-color: bisque;
+}
